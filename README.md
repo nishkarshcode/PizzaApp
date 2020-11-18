@@ -53,6 +53,32 @@ class Pizza(models.Model):
     created_at          = models.DateTimeField(auto_now_add=True)
 
 ```
+## SETTINGS.PY 
+I am Using mysql for my side. If you want to connect to Postgres SQL. Install Postgres coonector module and configure your setting.py file
+
+```sh
+DATABASES = {
+
+     'default': {
+
+         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+
+         'NAME': ‘db_name’,
+
+         'USER': 'db_username',
+
+         'PASSWORD': 'password',
+
+         'HOST': 'db_hostname_or_ip',
+
+         'PORT': 'db_port',
+
+     }
+
+ }
+
+```
+
 
 ## Walkthrough
 * You just need to create Toppings Firsts use POST call to add or GET call to sell all the toppings
