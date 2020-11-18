@@ -1,10 +1,14 @@
-## Table of contents
-* [General info](#general-info)
-* [Technologies](#technologies)
-* [Setup](#setup)
+# Pizza Application
+This is only for the test Purpose
 
-## General info
-This project is simple Lorem ipsum dolor generator.
+## Building
+
+It is best to use the python `virtualenv` tool to build locally:
+
+```sh
+$ virtualenv-2.7 venv
+$ source venv/bin/activate
+$ pip install -r requirements.txt
 	
 ## Technologies
 Project is created with:
