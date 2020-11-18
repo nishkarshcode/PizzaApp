@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+#VsCode Files and Environment Files
+MyPizza
+.vscode
+db.sqlite3

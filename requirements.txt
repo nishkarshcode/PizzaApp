@@ -1,0 +1,6 @@
+#Django Version And Required Modules
+django==3.0
+djangorestframework==3.12.2
+
+#For Database Connector
+psycopg2==2.8.6
