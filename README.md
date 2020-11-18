@@ -3,24 +3,20 @@ This is only for the test Purpose
 
 ## Building
 
-It is best to use the python `virtualenv` tool to build locally:
+First create a virtual Environment in you system and install and the dependancy
 
 ```sh
-$ virtualenv-2.7 venv
+$ python -m venv MyPizza
 $ source venv/bin/activate
 $ pip install -r requirements.txt
-	
-## Technologies
-Project is created with:
-* Lorem version: 12.3
-* Ipsum version: 2.33
-* Ament library version: 999
-	
-## Setup
-To run this project, install it locally using npm:
-
 ```
-$ cd ../lorem
-$ npm install
-$ npm start
-```
+	
+## Pip Modules Used
+Python modules:
+* djnago3.0
+* djangorestframework3.12.2
+* psycopg22.8.6
+	
+## Get involved!
+clone the project from repository
+* `git clone git://github.com/memcachier/examples-django.git`
